@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Home Page</title>
+</head>
+<body>
+    <div class="mainBox">
+        <div class="heading1">
+        	<h1>Upload Image</h1>
+        </div>
+        <div class="uploadBox">
+            <form #imageForm="ngForm" (ngSubmit)="uploadImage()">
+                <input type="hidden" name="token" value="{{dataService.token}}">
+                <input type="file" (change)="onFileChange($event)" accept=".jpg,.jpeg,.png" required>
+                <input type="submit" value="Upload" [disabled]="!imageForm.form.valid">
+            </form>
+        </div>
+    </div>
+</body>
+</html>

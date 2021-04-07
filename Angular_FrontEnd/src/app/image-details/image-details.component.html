@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Image Details</title>
+</head>
+<body>
+    <div class="mainBox">
+        <div class="heading1">
+        	<h1>Upload Image Succesfully</h1>
+        </div>
+        <div class="uploadBox">
+      		<!-- <label for="imagename">
+      			Name : 
+      		</label> -->
+              <textarea readonly>{{dataService.image_name}}</textarea><br>
+      		<!-- <input type="text" value="{{dataService.image_name}}" readonly><br> -->
+            <input type="button" (click)="return()" value="Back">
+        </div>
+    </div>
+</body>
+</html>

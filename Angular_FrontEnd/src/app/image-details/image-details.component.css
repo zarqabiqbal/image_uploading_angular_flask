@@ -1,0 +1,55 @@
+.mainBox{
+    height:300px;
+    width:400px;
+    background-color:lightgray;
+    border-radius: 20px;
+    border: 1px solid black;
+    padding: 5px;
+    margin-top:10%;
+    margin-left: 35%;
+}
+
+.heading1{
+	text-align: center;
+	color: white;
+	text-shadow: 2px 2px green;
+}
+
+.uploadBox{
+	margin-top: 60px;
+	/* float: left; */
+	text-align: center;
+}
+
+.returnLink{
+	margin-top: 70px;
+}
+
+input[type=text]{
+	overflow: auto;
+}
+
+input[type=button]{
+	margin-top: 30px;
+	padding: 5px;
+	width: 100px;
+	height: 50px;
+	border:1px solid black;
+	border-radius: 5px;
+
+}
+input[type=button]:hover{
+	margin-top: 30px;
+	padding: 5px;
+	width: 100px;
+	height: 50px;
+	border:1px solid black;
+	border-radius: 5px;
+	background-color: lightgreen;
+
+}
+
+textarea{
+	min-width: 350px;
+	max-width: 350px;
+}

@@ -1,0 +1,51 @@
+.mainBox{
+    height:300px;
+    width:400px;
+    background-color:lightgray;
+    border-radius: 20px;
+    border: 1px solid black;
+    padding: 5px;
+    margin-top:10%;
+    margin-left: 35%;
+}
+
+.heading1{
+	text-align: center;
+	color: white;
+	text-shadow: 2px 2px blue;
+}
+
+.uploadBox{
+	margin: 10px;
+	text-align: center;
+    
+}
+
+input[type=file]{
+	margin-top: 30px;
+	padding: 10px;
+	border:1px solid black;
+	border-radius: 5px;
+	font-weight: 400px;
+    width: 350px;
+}
+
+input[type=submit]{
+	margin-top: 30px;
+	padding: 5px;
+	width: 100px;
+	height: 50px;
+	border:1px solid black;
+	border-radius: 5px;
+
+}
+input[type=submit]:hover{
+	margin-top: 30px;
+	padding: 5px;
+	width: 100px;
+	height: 50px;
+	border:1px solid black;
+	border-radius: 5px;
+	background-color: lightgreen;
+
+}
